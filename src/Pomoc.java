@@ -21,7 +21,7 @@ public class Pomoc {
             suma += x;
             System.out.print(x + " ");
         }
-        System.out.println("\nSuma " + suma);
+        System.out.println("\nSuma    " + suma);
 
         JOptionPane.showMessageDialog(null, "Suma = " + suma, "R E Z U L T A T", JOptionPane.INFORMATION_MESSAGE);
         int a = JOptionPane.showConfirmDialog(null, "Da li ste sigurni...", "Potvrda", JOptionPane.YES_NO_CANCEL_OPTION);
